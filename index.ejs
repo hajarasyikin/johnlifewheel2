@@ -839,22 +839,7 @@ var entry = document.getElementById("Submit");
       <h1 class="text-center mb-3">
         <div id="container">
 
-     <div id="areaDiv" class="input">
-              <label for="areass" ></label>Areas: </label>
-              <select name="areass" id="areas">
-                  <option value = "God & Purpose">God & Purpose</option>
-                  <option value = "Health & Fitness">Health & Fitness</option>
-                  <option value = "Love & Romance">Love & Romance</option>
-                  <option value = "Home & Family">Home & Family</option>
-                  <option value = "Knowledge & Wisdom">Knowledge & Wisdom</option>
-                  <option value = "Money & Finance">Money & Finance</option>
-                  <option value = "Friends & Social">Friends & Social</option>               
-                  <option value = "Business & Career">Business & Career</option>
-                  <option value = "Play & Relaxation">Play & Relaxation</option>
-                  <option value = "Community & Contribution">Community & Contribution</option>
-              </select>
-          
-          </div>
+     
           <table border="1">
               <thead style="color: red;">
                   <tr>
@@ -871,17 +856,9 @@ var entry = document.getElementById("Submit");
               </tfoot>
           </table>
 
-          <div id="actionDiv" class="input">Actions: <input id="actions"
-          type="text" placeholder="Actions take"/></div> 
           
-      <button id="Submit">Submit</button>
         </div>
-        <table id="display">
-          <tr>
-              <th>Areas</th>
-              <th>Actions</th>
-          </tr>
-      </table>
+        
       </h1>
       <% include ./partials/messages %>
       <form action="/users/index" method="POST">
