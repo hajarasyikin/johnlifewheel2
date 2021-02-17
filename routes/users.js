@@ -29,7 +29,7 @@ router.post('/index', (req, res) => {
     }
 
     if(errors.length > 0){
-        res.render('register', {
+        res.render('index', {
             errors, 
             
             email,
