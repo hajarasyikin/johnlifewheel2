@@ -2,6 +2,8 @@
 
 Intall nodejs, express and mongodb in your terminal.
 
+mongodb - https://docs.mongodb.com/mongocli/master/install/
+
 
 In the file "keys.js", put the url mongodb
 
